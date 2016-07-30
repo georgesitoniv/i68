@@ -273,9 +273,18 @@
 
 body {
 	overflow-x: hidden;
-	background-color:rgb(220, 220, 220);
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:scroll;
+	background-image: url('../img/Parallax/gray.jpg');
+	min-height: 100%
+}
+.body-parallax{
+ 
 }
 body,html{
 	height: 100%;
@@ -426,9 +435,7 @@ section.success a.active {
     margin: 0 0 15px;
 }
 
-.expanding-caption{
 
-}
 
 #about .about-item .about-link {
     display: block;

@@ -59,18 +59,12 @@ $('.navbar-collapse ul li a').click(function() {
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
   var deviceWidth = $(window).width();
-  if(deviceWidth > 1000){
-    if(deviceWidth > 1200){
-        scrolledY = $(window).scrollTop()-126;
-    }
-    aboutScrolledY = $(window).scrollTop()-650
-    clientScrolledY = $(window).scrollTop()-1950;
-    $('.about-parallax').css('background-position', 'center ' + ((aboutScrolledY)) + 'px');
-    $('.client-parallax').css('background-position', 'center ' + ((clientScrolledY)) + 'px');
+  if(deviceWidth > 1200){
+    scrolledY = $(window).scrollTop()-126;
   }
   $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-
+  $('body').css('background-position', 'center ' + ((scrolledY)) + 'px');
 });
