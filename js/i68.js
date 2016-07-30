@@ -65,8 +65,8 @@ $(window).scroll(function() {
     clientScrolledY = $(window).scrollTop()-1900;
   }
   else{
-    aboutScrolledY = $(window).scrollTop();
-    clientScrolledY = $(window).scrollTop();
+    aboutScrolledY = $(window).scrollTop()-300;
+    clientScrolledY = $(window).scrollTop()-1500;
   }
   $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
