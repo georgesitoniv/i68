@@ -56,26 +56,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 
-$(document).ready(function(){
-    $('#calltime').timepicker();
-});
-
-
-$(document).ready(function() {
-	$("#homeSlider").swiperight(function() {
-		$(this).carousel('prev');
-	}); 
-	$("#homeSlider").swipeleft(function() {  
-		$(this).carousel('next');  
-	});
-    $('#homeSlider').carousel({
-    interval: 3000
-    });
-    
-});  
-
-
-
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
   var deviceWidth = $(window).width();
