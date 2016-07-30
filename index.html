@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>i68 Business Consultancy</title>
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+
+    <link href="css/i68.css" rel="stylesheet">
+	  <link rel="icon" href="img/i68_Logo.png" type="image/x-icon" />
+
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <div class="custom-navbar">
+    <nav class="navbar navbar-default navbar-fixed-top" >
+		    <div class="topBlack"></div>
+        <div class="container-fluid">
+
+
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-i68">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img  class="topLogo" src="img/i68_Logo.png"/></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-i68" style="background-color:rgb(47,170,1)">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about_us">ABOUT US</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#services">SERVICES</a>
+                    </li>
+					         <li class="page-scroll">
+                        <a href="#clients">CLIENTS</a>
+                    </li>
+					          <li class="page-scroll">
+                        <a href="#contact">CONTACT US</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="faqs.html#faqs">FAQS</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </nav>
+  </div>
+
+  <header id="homeSlider"  class="carousel slide carousel-fade" data-ride="carousel">
+
+  	<script>
+	$(document).ready(function() {
+		$("#homeSlider").swiperight(function() {
+			$(this).carousel('prev');
+		}); 
+		$("#homeSlider").swipeleft(function() {  
+			$(this).carousel('next');  
+		});  
+	});  
+	</script>
+      <!-- Indicators -->
+
+      <ol class="carousel-indicators">
+          <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#homeSlider" data-slide-to="1"></li>
+          <li data-target="#homeSlider" data-slide-to="2"></li>
+          <li data-target="#homeSlider" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for Slides -->
+      <div class="carousel-inner">
+
+          <div class="item active">
+              <div class="home-parallax" ></div>
+          </div>
+
+          <div class="item">
+              <div class="services-parallax">
+              </div>
+          </div>
+
+          <div class="item">
+              <div class="choose-parallax" ></div>
+          </div>
+
+          <div class="item">
+		  
+            <div class="inquire-parallax" >
+				<div class="slider-caption ">
+					<div class="page-scroll">
+						<a href="#contact">
+							INQUIRE NOW
+						</a>
+					</div>
+				</div>
+			</div>
+
+          </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#homeSlider" data-slide="prev">
+        <span style="font-size:45px" class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#homeSlider" data-slide="next">
+        <span style="font-size:45px" class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+	  
+
+
+  </header>
+
+
+	 <!-- About Us Grid Section -->
+	  <div id="about_us" style="position:relative;top:-130px;height:1px;"></div>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+				          <div class="title_size" id="titles" style="color:black">About Us</div>
+            </div>
+			<br>
+			<div style="margin:auto;text-align:center">
+            <div class="row">
+                <div class="col-sm-4 about-item">
+                    <a href="#aboutModal1" class="about-link" data-toggle="modal">
+                        <div class="caption">
+
+                            <div class="caption-content">
+                                <div  id = "grouped_services_heading_size">i68 Business Consultancy</div>
+                            </div>
+
+                        </div>
+                        <img src="img/About-Us/suitcase.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 about-item">
+                    <a href="#aboutModal2" class="about-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <div  id = "grouped_services_heading_size">View Mission</div>
+                            </div>
+                        </div>
+                        <img src="img/About-Us/goal.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 about-item">
+                    <a href="#aboutModal3" class="about-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div  id = "grouped_services_heading_size">View Vision</div>
+                            </div>
+                        </div>
+                        <img src="img/About-Us/vision.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+            </div>
+			    </div>
+
+        </div>
+
+    </section>
+
+
+	<!-- Services -->
+	<div id="services" style="position:relative;top:-60px;height:10px;"></div>
+    <section class="success">
+      <div class="container">
+
+		   <div class="row">
+         <div class="col-lg-12 text-left">
+					      <div class="title_size" id="titles" style="color:black">Services</div>
+          </div>
+      </div>
+
+			<br><br>
+
+			<div id="accordion" role="tablist" aria-multiselectable="true" class="grouped_services">
+
+			  <div class="panel panel-default" style="color:black">
+				<div class="panel-heading" role="tab" id="headingTaxCompliance">
+				  <div class="panel-title">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTaxCompliance" aria-expanded="false" aria-controls="collapseTaxCompliance">
+						<div class="row">
+							<div class="col">
+								<div class="row" cellspacing = "20px" style="margin: auto; text-align:center; color:black">
+
+										<div colspan="2" class="main_page_content" id="grouped_services_heading_size" style="text-align:center">
+                      Tax Compliance
+
+										</div>
+
+								</div>
+							</div>
+						</div>
+					</a>
+				  </div>
+
+				</div>
+				<div id="collapseTaxCompliance" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" style="overflow-y:auto;overflow-x:hidden">
+					<div class="row" style="padding:2%;text-align:center;">
+						<div class="col-lg-2">
+              <img src="img/Services/tax_compliance.png" style="height:120px; width:120px;">
+
+						</div>
+
+						<div class="col-lg-10" style="max-height:40px;">
+
+              <p style="text-align:left; font-size:16px;padding-top:30px;">
+
+
+                   We help business owners and corporations in preparing
+                 and complying with their monthly, quarterly and annual
+                 tax concerns.
+              </p>
+              <div class="page-scroll" style="text-align:right;">
+
+                <a href="#contact" >
+                  <button type="submit" class="btn btn-success btn-sm-4"><div style="color:black">Make an appoinment</div></button>
+                </a>
+
+              </div>
+
+
+
+						 </div>
+
+				  </div>
+			   </div>
+        </div>
+
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingBusinessRegistration">
+				  <div class="panel-title">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseBusinessRegistration" aria-expanded="false" aria-controls="collapseBusinessRegistration">
+						<div class="row">
+							<div class="col">
+								<div class="row" cellspacing = "20px" style="margin: auto; text-align:center; color:black;">
+
+										<div colspan="2" class="main_page_content" id="grouped_services_heading_size" style="text-align:center">
+											Business Registration
+										</div>
+
+								</div>
+							</div>
+						</div>
+					</a>
+				  </div>
+				</div>
+				<div id="collapseBusinessRegistration" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" style="overflow-y:auto;overflow-x:hidden">
+					<div class="row" style="padding:2%;text-align:center;color:black">
+						<div class="col-lg-2">
+							<img src="img/Services/business_reg.png" style="height:120px; width:120px;">
+						</div>
+            <div class="consultation-panel-size">
+  						<div class="col-lg-10" >
+  							<p style="text-align:left; font-size:16px;padding-top:30px;">
+                  We provide assistance in getting business permits from
+                  different agencies(i.e Bureau of Internal Revenue(BIR),
+                  Department of Trade and Industry(DTI), Security & Exchange
+                  Commission, and, Mayor's Permit)
+  							</p>
+                <div class="page-scroll" style="text-align:right;">
+
+                  <a href="#contact" >
+                    <button type="submit" class="btn btn-success btn-sm-4"><div style="color:black">Make an appoinment</div></button>
+                  </a>
+
+                </div>
+
+  						</div>
+            </div>
+					</div>
+				 </div>
+			  </div>
+
+			  <div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingConsultancy">
+				  <div class="panel-title">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseConsultancy" aria-expanded="false" aria-controls="collapseConsultancy">
+						<div class="row">
+							<div class="col">
+								<div class="row" cellspacing = "20px" style="margin: auto; text-align:center; color:black;">
+
+										<div colspan="2" class="main_page_content" id="grouped_services_heading_size" style="text-align:center">
+                      Consultancy
+										</div>
+
+								</div>
+							</div>
+						</div>
+					</a>
+				  </div>
+				</div>
+				<div id="collapseConsultancy" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" style="overflow-y:auto;overflow-x:hidden">
+					<div class="row" style="padding:2%;text-align:center;color:black">
+						<div class="col-lg-2">
+							<img src="img/Services/consultancy.png" style="height:120px; width:120px;">
+						</div>
+            <div class="consultation-panel-size">
+  						<div class="col-lg-10" style="font-size:13px;">
+                <table class="table table-striped" style="text-align:center; ">
+                  <tbody>
+                    <tr>
+                      <td>Consultation on Tax & Accounting concerns</td>
+                    </tr>
+                    <tr>
+                      <td> Consultation on Capital Gains, Estate, Etc. </td>
+                    </tr>
+                  </tbody>
+                </table>
+  							<p style="text-align:left;">
+                  Kindly note that relevant documents should be brought for
+                   review during consultation.Consultation will be scheduled, for appointment.
+  	            </p>
+                <div class="page-scroll" style="text-align:right;">
+
+                  <a href="#contact" >
+                    <button type="submit" class="btn btn-success btn-sm-4"><div style="color:black">Make an appoinment</div></button>
+                  </a>
+
+                </div>
+  						</div>
+            </div>
+					</div>
+				 </div>
+			  </div>
+
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOthers">
+          <div class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOthers" aria-expanded="false" aria-controls="collapseOthers">
+            <div class="row">
+              <div class="col">
+                <div class="row" cellspacing = "20px" style="margin: auto; text-align:center; color:black;">
+
+                    <div colspan="2" class="main_page_content" id="grouped_services_heading_size" style="text-align:center">
+                      Other Services
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div id="collapseOthers" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseOthers" style="overflow-y:auto;overflow-x:hidden">
+          <div class="row" style="padding:2%;text-align:center;color:black">
+            <div class="col-lg-2">
+              <img src="img/Services/Audit.png" style="height:120px; width:120px;">
+            </div>
+            <div class="consultation-panel-size">
+              <div class="col-lg-10" style="font-size:13px;">
+                <table class="table table-striped" style="text-align:center; ">
+                  <tbody>
+                    <tr>
+                      <td>Audit Assistance for Cooperatives</td>
+                    </tr>
+                    <tr>
+                      <td>Assistance on printing of Sales Invoice (SI), Delivery Receipt (DR) and Official Receipt (OR).</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+
+                  <p style="text-align:left;">
+                    Processing of requests will start upon completion
+                   of requirements and downpayment.
+
+                  </p>
+                  <div class="page-scroll" style="text-align:right;">
+
+                    <a href="#contact" >
+                      <button type="submit" class="btn btn-success btn-sm-4"><div style="color:black">Make an appoinment</div></button>
+                    </a>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+
+
+			</div>
+		</div>
+		<br><br><br>
+    </section>
+
+	<!-- Clients Section -->
+	<div id="clients" style="position:relative;top:-130px;height:10px;"></div>
+	<section >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="title_size" id="titles" style="color:black">Clients</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="row" style="padding-left:15%;padding-right:5%;text-align:center;">
+				<div class="col-lg-10">
+					<p class="main_page_content" id="client-text-size" style="text-align:left; color:black">
+						Due to i68's high quality services, the company
+						had amassed numerous clients all over Metro Manila and Calabarzon. Below
+						are some of i68's Clients:
+					</p>
+				</div>
+
+
+            </div>
+
+			<link href="css/client-slider.css" rel="stylesheet">
+
+			<br><br><br>
+      <div class="col-md-6 col-md-offset-3">
+      <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="clientCarousel">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a><img src="img/Client_Logos/carlson.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/driftwood.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item" >
+            <div class="col-md-3 col-sm-6 col-sm-12" ><a ><img style="margin:auto;" src="img/Client_Logos/palmas.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/jia hua.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/oasis.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/mount sea.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/precious tavel.jpg" id="client-slider"class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-md-3 col-sm-6 col-sm-12"><a ><img src="img/Client_Logos/tagaytay christian academy.jpg" id="client-slider" class="img-responsive"></a></div>
+          </div>
+
+
+        </div>
+        <a class="left carousel-control" href="#clientCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#clientCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+      </div>
+
+
+
+		<br><br>
+		</div>
+	</section>
+
+    <!-- Contact Section -->
+	<div id="contact" style="position:relative;top:-60px;height:10px;"></div>
+    <section class="success">
+        <div class="container">
+
+  			 <div class="panel-group" id="contact-form" aria-expanded="true">
+  			  <div class="panel panel-default" >
+  				<div class="panel-heading" >
+
+  					<a class="panel-title">
+  					<div class="row">
+  							<div class="col">
+  								<div class="row" cellspacing = "20px" style="margin: auto; text-align:center; color:black">
+
+  										<div colspan="2" class="main_page_content" id="grouped_services_heading_size" style="text-align:center">
+  											CONTACT US
+  										</div>
+
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+
+  				</div>
+				<form name="sentMessage" id="contactForm" novalidate>
+  				<div  class="panel-body" style="width:100%; text-align:center;">
+
+  					  <div class="panel-body">
+  							<div class="row">
+                  <div class="col-lg-2 col-lg-offset-1" style="padding-top:3%;">
+                    <div class="row">
+                      <a href="#locationModal"  data-toggle="modal">
+                          <img style="max-width:120px;width:90%;"  src="img/Map/location.png" alt="">
+                      </a>
+
+                    </div>
+                    <br>
+                    <div class="row"style="text-align:center;color:black;font-size:15px;">
+                      VIEW  LOCATION
+                    </div>
+                  </div>
+  								<div class="col-lg-8 col-lg-offset-1">
+  									<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+  									<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+										
+		
+  										<div class="row control-group">
+  											<div class="form-group col-xs-6 floating-label-form-group controls">
+  												<label>Name</label>
+  												<input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+
+    										</div>
+											<div class="form-group col-xs-6 floating-label-form-group controls">
+  											  <label>Mobile Number</label>
+  											  <input type="tel" pattern="^(((0|00|\+)[1-9]{2,3})[0-9]{10})$"  class="form-control" placeholder="Mobile/Phone Number" id="phone" required data-validation-required-message="Please enter your phone/mobile number.">
+											</div>
+  								
+
+  											<div  style="margin-top:60px; margin-bottom:-20px;">
+  												<p class="help-block text-danger"></p>
+  												<p class="help-block text-danger"></p>
+  											</div>
+										  </div>
+  										<div class="row control-group">
+
+  										</div>
+  										<div class="row control-group">
+
+				
+								
+											<div class="form-group col-xs-12 floating-label-form-group controls">
+  											  <label>Company Name</label>
+  											  <input type="text" class="form-control" placeholder="Company Name" id="company_name" required data-validation-required-message="Please enter your Company.">
+  											</div>
+
+											<div style="margin-top:60px; margin-bottom:-20px;">
+  												<p class="help-block text-danger"></p>
+												<p class="help-block text-danger"></p>
+  											</div>
+											
+  										</div>
+  										<div class="row control-group">
+										<div class="form-group col-xs-12 floating-label-form-group controls">
+										  <label>Email Address</label>
+										  <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+										</div>
+										<div   style="margin-top:60px; margin-bottom:-20px;">
+										  <p class="help-block text-danger"></p>
+										</div>
+  										</div>
+
+  										<div class="row control-group">
+  											<div class="form-group col-xs-12 floating-label-form-group controls">
+  												<label>Inquiry</label>
+  												<textarea rows="3" class="form-control"  placeholder="Inquiry/Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+  												<p class="help-block text-danger"></p>
+  											</div>
+										</div>
+										<div class="row control-group">
+											<div class="form-group col-xs-6">
+												<div style="color:black;padding-top:5px;">
+												<label>Best Time to Call</label>
+												</div>
+											</div>
+											<div class="form-group col-xs-6 floating-label-form-group controls">
+												<input type="time" pattern="^(([0-2]|)[0-9](:[0-9]{2}|))(| )(|am|pm|AM|PM)$"  class="form-control input-sm" placeholder="HOUR : MINUTE AM/PM" id="calltime" required data-validation-required-message="Please enter a time.">
+											</div>
+											<div  style="margin-top:60px; margin-bottom:-20px;">
+  												<p class="help-block text-danger"></p>
+  											</div>
+										</div>
+
+									
+									<!--<div style="color:red;float:right;">Please use Military Time Format</div>-->
+  								</div>
+  							</div>
+
+  						</div>
+
+
+					</div>
+					<div class="panel-footer" style="text-align:center;">
+						<div class="row">
+
+						<button  type="submit" class="btn btn-success"><div style="color:black">Send</div></button>
+						</div>
+					</div>
+				</form>
+			 </div>
+			</div>
+
+
+     </div>
+
+    </section>
+
+	<!--Footer Section-->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h4> Our Location</h4>
+                        <p>122 Don P. Campos Ave.Brgy. Zone IV <br>Dasmarinas City, Cavite </p>
+                    </div>
+					          <div class="footer-col col-md-4">
+                        <h4>Our Numbers</h4>
+                        <p>Tel No:(046) 427-1876 <br>Cell No:0906-203-9418<br>0905-882-9259 </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h4>Like us on Facebook </h4>
+						<p><a href="#" class="btn-social btn-outline" style = "background-color:rgb(59, 89, 152);"><i class="fa fa-fw fa-facebook"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; i68 Business Consultancy 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- about Modals -->
+    <div class="about-modal modal fade" id="aboutModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="title_size" id="titles" style="color:black; text-align:center">i68 Business Consultancy</div>
+                							<br>
+                							<div style="margin:auto;max-width:400px; width:auto; height:auto">
+                							<img src="img/About-Us/suitcase.jpg" class="img-responsive img-centered" alt="">
+                							</div>
+                              <p class="modal-text">
+                              	i68 Business Consultancy Services is a company specializing in providing
+                                professional services in the areas of Accounting, Tax Compliance, Business
+                                 Registration and other business related  matters.
+                               </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-modal modal fade" id="aboutModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="title_size" id="titles" style="color:black; text-align:center">Mission</div>
+              							<br>
+                            <div style="margin:auto;max-width:400px; width:auto; height:auto">
+              								<img src="img/About-Us/goal.jpg" class="img-responsive img-centered" alt="">
+              							</div>
+                            <p class="modal-text">
+                                           Engage in providing professional and quality services aimed at enhancing your company’s
+                                            efficiency, status and productivity.
+                                            Become the leading business and consultancy firm in the Philippines,
+                                            through providing services that is imbued with moral and ethical standards.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-modal modal fade" id="aboutModal3" tabindex="-1" role="dialog" aria-hidden="true"  >
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="title_size" id="titles" style="font-size:40px;color:black; text-align:center">Vision</div>
+                  							<br>
+                                <div style="margin:auto;max-width:400px; width:auto; height:auto">
+                  							         <img src="img/About-Us/vision.png" class="img-responsive img-centered" alt="">
+                  							</div>
+
+                    							<p class="modal-text">
+                                    i68 Business Consultancy Services shall be a company that
+                                     focuses on employee development, their families and consequently to society,
+                                      customer satisfaction premised on professionalism, consistent with Filipino values and mores.
+                                  </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-modal modal fade" id="locationModal" tabindex="-1" role="dialog" aria-hidden="true"  >
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="title_size" id="titles" style="font-size:35px;color:black; text-align:center">Location</div>
+                            <br>
+                            <div class="location-wrapper">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.7924400394954!2d120.93577861419432!3d14.323485789979456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5013de99701%3A0xf4d902f3218893c3!2s122+Don+Placido+Campos+Ave%2C+Dasmari%C3%B1as%2C+Cavite!5e0!3m2!1sen!2sph!4v1468728540998" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <br><br>
+                            <div class="title_size" id="titles" style="font-size:30px;color:black; text-align:center">Office</div>
+                            <br>
+                            <img src="img/Map/office_1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/Map/office_2.jpg" class="img-responsive img-centered" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+
+
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+    <script src="js/i68.js"></script>
+	<script src="js/client-slider.js"></script>
+
+
+</body>
+
+<!--We used the freelancer tempalate on StartBootstrap.com-->
+
+</html>
