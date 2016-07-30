@@ -58,16 +58,13 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
+  var aboutScrolledY = $(window).scrollTop()-600
+  var clientScrolledY = $(window).scrollTop()-1900;
   var deviceWidth = $(window).width();
   if(deviceWidth > 1200){
     scrolledY = $(window).scrollTop()-126;
-    aboutScrolledY = $(window).scrollTop()-600;
-    clientScrolledY = $(window).scrollTop()-1900;
   }
-  else{
-    aboutScrolledY = $(window).scrollTop()-300;
-    clientScrolledY = $(window).scrollTop()-1500;
-  }
+
   $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
