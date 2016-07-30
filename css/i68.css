@@ -739,7 +739,7 @@ input[type=number] {
 }
 .about-parallax{
   min-height: 480px;
-  background-image: url('../img/Parallax/green.jpg');
+  background-image: url('../img/Parallax/gray.jpg');
   height: auto;
 }
 .client-parallax{
