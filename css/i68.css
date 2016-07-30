@@ -55,7 +55,7 @@
 		font-size:1.5em;
 	}
 	.consultation-panel-size{
-		height: 280px;
+		height: 320px;
 	}
 	.slider-caption a{
 		font-size:35px;
@@ -357,7 +357,6 @@ header .intro-text .skills {
 	display: none;
 }
 .navbar{
-	font-famly: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.15em;
 }
@@ -448,7 +447,7 @@ section.success a.active {
 	width:100%;
 	height:100%;
 	margin:0 auto;
-	background: rgba(60,60,60,.8);
+	background: rgba(100,100,100,.8);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -456,10 +455,8 @@ section.success a.active {
 }
 
 #about .about-item .about-link .caption:hover {
-		background-color:;
-		height: 100%;
-		opacity:0;
-
+	height: 100%;
+	opacity:0;
 }
 
 #about .about-item .about-link .caption .caption-content {
@@ -566,7 +563,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 15px;
-		background-color:rgb(47,170,1);rgb(47,158,1);
+	background-color:rgb(47,190,1);
 }
 
 footer .footer-col {
@@ -719,11 +716,20 @@ input[type=number] {
   background-attachment:scroll;
 
 }
+.client-parallax,
+.about-parallax{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
 
 .home-parallax{
   background-image: url('../img/Slides/home.jpg');
   min-height: 100%;
 }
+
 .inquire-parallax{
   background-image: url('../img/Slides/inquire.jpg');
   min-height: 100%;
@@ -735,6 +741,16 @@ input[type=number] {
 .services-parallax{
   background-image: url('../img/Slides/services.jpg');
   min-height: 100%;
+}
+.about-parallax{
+  min-height: 480px;
+  background-image: url('../img/Parallax/green2.jpg');
+  height: auto;
+}
+.client-parallax{
+  background-image: url('../img/Parallax/green.jpg');
+  min-height: 400px;
+  height: auto;
 }
 .slider-caption {
   position: absolute;
