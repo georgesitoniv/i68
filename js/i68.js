@@ -75,3 +75,10 @@ $('#homeSlider').carousel({
 });
 
 
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.home-parallax').css('background-position', 'center ' + ((scrolledY-126)) + 'px');
+  $('.services-parallax').css('background-position', 'center ' + ((scrolledY-126)) + 'px');
+  $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY-126)) + 'px');
+  $('.choose-parallax').css('background-position', 'center ' + ((scrolledY-126)) + 'px');
+});
