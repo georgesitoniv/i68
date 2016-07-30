@@ -708,7 +708,9 @@ input[type=number] {
 .home-parallax,
 .services-parallax,
 .choose-parallax,
-.inquire-parallax {
+.inquire-parallax,
+.client-parallax,
+.about-parallax {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -716,14 +718,7 @@ input[type=number] {
   background-attachment:scroll;
 
 }
-.client-parallax,
-.about-parallax{
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment:fixed;
-}
+
 
 .home-parallax{
   background-image: url('../img/Slides/home.jpg');
