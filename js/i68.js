@@ -66,5 +66,5 @@ $(window).scroll(function() {
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-  $('body').css('background-position', 'center ' + ((scrolledY)) + 'px');
+  $('body').css('background-position', 'center ' + ((scrolledY+20)) + 'px');
 });
