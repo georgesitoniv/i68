@@ -77,6 +77,10 @@ $('#homeSlider').carousel({
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
+  var deviceWidth = $(window).width();
+  if(deviceWidth > 1200){
+      scrolledY = $(window).scrollTop()-126;
+  }
   $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
