@@ -67,12 +67,13 @@ $(document).ready(function() {
 	}); 
 	$("#homeSlider").swipeleft(function() {  
 		$(this).carousel('next');  
-	});  
+	});
+    $('#homeSlider').carousel({
+    interval: 3000
+    });
+    
 });  
 
-$('#homeSlider').carousel({
-  interval: 3000
-});
 
 
 $(window).scroll(function() {
