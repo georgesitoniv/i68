@@ -733,13 +733,11 @@ input[type=number] {
   min-height: 100%;
 }
 .about-parallax{
-  min-height: 480px;
   background-image: url('../img/Parallax/gray.jpg');
   height: auto;
 }
 .client-parallax{
   background-image: url('../img/Parallax/gray.jpg');
-  min-height: 400px;
   height: auto;
 }
 .slider-caption {

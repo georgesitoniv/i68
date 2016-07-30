@@ -58,20 +58,19 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
-  var aboutScrolledY = $(window).scrollTop()-600
-  var clientScrolledY = $(window).scrollTop()-1900;
   var deviceWidth = $(window).width();
-  if(deviceWidth > 1200){
-    scrolledY = $(window).scrollTop()-126;
+  if(deviceWidth > 1000){
+    if(deviceWidth > 1200){
+        scrolledY = $(window).scrollTop()-126;
+    }
+    aboutScrolledY = $(window).scrollTop()-650
+    clientScrolledY = $(window).scrollTop()-1950;
+    $('.about-parallax').css('background-position', 'center ' + ((aboutScrolledY)) + 'px');
+    $('.client-parallax').css('background-position', 'center ' + ((clientScrolledY)) + 'px');
   }
-  else{
-    clientScrolledY = $(window).scrollTop()-1400;
-  }
-
   $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
   $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-  $('.about-parallax').css('background-position', 'center ' + ((aboutScrolledY)) + 'px');
-  $('.client-parallax').css('background-position', 'center ' + ((clientScrolledY)) + 'px');
+
 });
