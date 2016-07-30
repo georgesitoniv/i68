@@ -55,7 +55,7 @@
 		font-size:1.5em;
 	}
 	.consultation-panel-size{
-		height: 320px;
+		height: auto;
 	}
 	.slider-caption a{
 		font-size:35px;
@@ -100,8 +100,6 @@
 		width: 100%;
 		font-size: .8em;
 	}
-
-
 }
 
 
@@ -393,11 +391,8 @@ section h2 {
 section.success {
     color: #fff;
     background-color: rgb(245, 245, 245);
-		repeating-linear-gradient(45deg,	white,	white 10px,	rgb(240,240,240) 10px,	rgb(240,240,240) 20px );rgb(200,200,200);
 }
-section.slash{
-	background-image:repeating-linear-gradient(-45deg, white, rgb(220,220,220) 10px, rgba(255,255,255,1) 10px, rgba(255,255,255,1) 50px);
-}
+
 
 section.success a,
 section.success a:hover,
