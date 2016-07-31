@@ -1128,6 +1128,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+    -webkit-box-shadow: 0 10px 10px rgba(50, 50, 50, 0.3);
+  box-shadow: 0 10px 10px rgba(50, 50, 50, 0.3);
 
 }
 .img-rounded {
@@ -3024,6 +3026,8 @@ select[multiple].input-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-box-shadow: 0 5px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: 0 5px 5px rgba(50, 50, 50, 0.2);
 }
 .btn:focus,
 .btn:active:focus,
@@ -5505,9 +5509,8 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 21px;
   background-color: #ffffff;
   border: 1px solid transparent;
-  border-radius: 1px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: 0 5px 5px rgba(50, 50, 50, 0.2);
 }
 .panel-body {
   padding: 15px;
@@ -5718,7 +5721,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 4px;
 }
 .panel-group .panel + .panel {
   margin-top: 5px;
