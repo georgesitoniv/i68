@@ -200,7 +200,6 @@
 		height:auto
 	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
   .grouped_services{
@@ -283,15 +282,11 @@ body {
 	background-image: url('../img/Parallax/gray.jpg');
 	min-height: 100%
 }
-.body-parallax{
- 
-}
+
 body,html{
 	height: 100%;
 	margin: 0;
 }
-
-
 
 p {
     font-size: 13px;
@@ -320,8 +315,6 @@ h6 {
 		font-family: 'Quicksand', sans-serif;
     font-weight: 700;
 }
-
-
 
 .img-centered {
     margin: 0 auto;
@@ -422,7 +415,6 @@ section.success a.active {
     }
 }
 #titles{
-	font-famly: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-family: 'Quicksand', sans-serif;
 	text-align:left;
 	padding-left:20px;
