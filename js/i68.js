@@ -59,6 +59,7 @@ $('.navbar-collapse ul li a').click(function() {
 $(window).scroll(function() {
   var scrolledY = $(window).scrollTop();
   var deviceWidth = $(window).width();
+  
   if(deviceWidth > 800){
       if(deviceWidth > 1200 && deviceWidth < 1400){
           scrolledY = $(window).scrollTop()-126;
@@ -68,7 +69,7 @@ $(window).scroll(function() {
     $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
     $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
     $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-  
   }
+
 });
 

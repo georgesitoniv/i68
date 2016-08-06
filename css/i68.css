@@ -41,8 +41,14 @@
 		height: 90px;
 		width: 90px;
 	}
-	.modal-text, #client-text-size, .floating-label-form-group input, .floating-label-form-group textarea{
+	.modal-text, #client-text-size{
 		font-size:0.9em;
+	}
+	.floating-label-form-group input, .floating-label-form-group textarea{
+		font-size:1.3em;
+	}
+	#name-input, #mobile-input{
+		width:100%;
 	}
 
 	#client-slider{
@@ -92,9 +98,10 @@
 		height: 90px;
 		width: 90x;
 	}
-	.modal-text, #client-text-size, .floating-label-form-group input, .floating-label-form-group textarea{
+	.modal-text, #client-text-size{
 		font-size:0.9em;
 	}
+
 	#client-slider{
 		max-width:60%;
 		margin: auto;
@@ -135,9 +142,6 @@
 	}
 	.modal-text, #client-text-size  {
 		font-size:1em;
-	}
-	.floating-label-form-group input, .floating-label-form-group textarea{
-		font-size: 0.9em;
 	}
 
 	#client-slider{
@@ -185,8 +189,12 @@
 	}
 
 	.floating-label-form-group input, .floating-label-form-group textarea {
-		font-size: 0.9em;
+		font-size: 1.05em;
+	}	
+	#name-input, #mobile-input{
+		width:50%;
 	}
+
 	#client-slider{
 
 		max-width: 80%;
@@ -226,9 +234,6 @@
 		font-size:1.1em;
 	}
 
-	.floating-label-form-group input, .floating-label-form-group textarea {
-		font-size: 1em;
-	}
 	#client-slider{
 
 		max-width: 100%;
@@ -264,9 +269,6 @@
 		font-size:1.1em;
 	}
 
-	.floating-label-form-group input, .floating-label-form-group textarea {
-		font-size: 1em;
-	}
 	#client-slider{
 		max-width: 100%;
 	}
@@ -288,8 +290,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment:scroll;
 	background-color: rgb(230, 230, 230);
+	background-attachment:scroll;
 	background-image: url('../img/Parallax/gray.jpg');
 	min-height: 100%
 }
@@ -814,4 +816,14 @@ input[type=number] {
 }
 .timepicker{
 	background-color: white;
+}
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
 }
