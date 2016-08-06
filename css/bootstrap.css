@@ -1129,7 +1129,7 @@ img {
   max-width: 100%;
   height: auto;
     -webkit-box-shadow: 0 10px 10px rgba(50, 50, 50, 0.3);
-  box-shadow: 0 10px 10px rgba(50, 50, 50, 0.3);
+    box-shadow: 0 10px 10px rgba(50, 50, 50, 0.3);
 
 }
 
