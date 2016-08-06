@@ -69,7 +69,6 @@ $('.navbar-collapse ul li a').click(function() {
                 $('#collapseOthers').slideDown();
             }
 
-
             if(deviceWidth > 800){
                 if(deviceWidth > 1200 && deviceWidth < 1400){
                     scrolledY = $(window).scrollTop()-126;
