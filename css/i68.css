@@ -175,7 +175,9 @@
 	.title_size{
 		font-size:3em;
 	}
-
+	section{
+		min-height: 400px;
+	}
 	#grouped_services_heading_size{
 		font-size:1.3em;
 	}
@@ -228,6 +230,7 @@
 	.title_size{
 		font-size:3em;
 	}
+
 
 
 	.modal-text, #client-text-size{

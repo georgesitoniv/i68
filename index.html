@@ -120,18 +120,18 @@
 
 
 	 <!-- About Us Grid Section -->
-	  <div id="about_us" style="position:relative;top:-130px;height:1px;"></div>
+	<div id="about_us" style="position:relative;top:-130px;height:1px;"></div>
     <section id="about">
         
         <div class="container">
             <div class="row">
-				          <div class="title_size" id="titles" style="color:black">About Us</div>
+			<div class="title_size" id="titles" style="color:black">About Us</div>
             </div>
 			<br>
 			<div style="margin:auto;text-align:center">
             <div class="row">
                 <div class="col-sm-4 about-item">
-                    <a href="#descriptionModal" class="about-link" data-toggle="modal">
+                    <a id="descriptionModalLink" href="#descriptionModal" class="about-link" data-toggle="modal">
                         <div class="caption">
 
                             <div class="caption-content">
@@ -143,7 +143,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 about-item">
-                    <a href="#missionModal" class="about-link" data-toggle="modal">
+                    <a id="missionModalLink" href="#missionModal" class="about-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                               <div  id = "grouped_services_heading_size">View Mission</div>
@@ -153,7 +153,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 about-item">
-                    <a href="#visionModal" class="about-link" data-toggle="modal">
+                    <a id="visionModalLink" href="#visionModal" class="about-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <div  id = "grouped_services_heading_size">View Vision</div>
@@ -207,7 +207,7 @@
 				  </div>
 
 				</div>
-				<div id="collapseTaxCompliance" class="consultation-panel-size panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTaxCompliance" style="overflow-y:auto;overflow-x:hidden">
+				<div id="collapseTaxCompliance" class="consultation-panel-size panel-collapse collapse" role="tabpanel" aria-labelledby="headingTaxCompliance" style="overflow-y:auto;overflow-x:hidden">
 					<div class="row" style="padding:2%;text-align:center;">
 						<div class="col-lg-2">
                             <img src="img/Services/tax_compliance.png" style="height:120px; width:120px;">
@@ -249,7 +249,7 @@
 					</a>
 				  </div>
 				</div>
-				<div id="collapseBusinessRegistration" class="panel-collapse collapse consultation-panel-size in" role="tabpanel" aria-labelledby="headingBusinessRegistration" style="overflow-y:auto;overflow-x:hidden">
+				<div id="collapseBusinessRegistration" class="panel-collapse collapse consultation-panel-size" role="tabpanel" aria-labelledby="headingBusinessRegistration" style="overflow-y:auto;overflow-x:hidden">
 					<div class="row" style="padding:2%;text-align:center;color:black">
 						<div class="col-lg-2">
 							<img src="img/Services/business_reg.png" style="height:120px; width:120px;">
@@ -287,7 +287,7 @@
 					</a>
 				  </div>
 				</div>
-				<div id="collapseConsultancy" class="panel-collapse collapse consultation-panel-size in" role="tabpanel" aria-labelledby="headingConsultancy" style="overflow-y:auto;overflow-x:hidden">
+				<div id="collapseConsultancy" class="panel-collapse collapse consultation-panel-size" role="tabpanel" aria-labelledby="headingConsultancy" style="overflow-y:auto;overflow-x:hidden">
 					<div class="row" style="padding:2%;text-align:center;color:black">
 						<div class="col-lg-2">
 							<img src="img/Services/consultancy.png" style="height:120px; width:120px;">
@@ -334,7 +334,7 @@
           </a>
           </div>
         </div>
-        <div id="collapseOthers" class="panel-collapse collapse consultation-panel-size in" role="tabpanel" aria-labelledby="headingOthers" style="overflow-y:auto;overflow-x:hidden">
+        <div id="collapseOthers" class="panel-collapse collapse consultation-panel-size" role="tabpanel" aria-labelledby="headingOthers" style="overflow-y:auto;overflow-x:hidden">
           <div class="row" style="padding:2%;text-align:center;color:black">
             <div class="col-lg-2">
               <img src="img/Services/Audit.png" style="height:120px; width:120px;">
@@ -464,7 +464,7 @@
 			</div>
             <br>
   			 <div id="contact-form" >
-  			  <div class="panel panel-default" >
+  			  <div id="contact-panel" class="panel panel-default" >
 				<form name="sentMessage" id="contactForm" novalidate>
   				<div  class="panel-body" style="width:100%; text-align:center;">
 

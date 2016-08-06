@@ -38,6 +38,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 (function($) {
     $(document).ready(function(){
+        $('.about-link').fadeOut();
 
         $(window).scroll(function(){
             if ($(this).scrollTop() > 200) {
@@ -50,26 +51,43 @@ $('.navbar-collapse ul li a').click(function() {
             }
         });
 
+        $(window).scroll(function() {
+            var scrolledY = $(window).scrollTop();
+            var deviceWidth = $(window).width();
+            
+            if(scrolledY > 400 && scrolledY < 500){
+                $('#descriptionModalLink').fadeIn(2000);
+                $('#missionModalLink').fadeIn(3000);
+                $('#visionModalLink').fadeIn(4000);
+            }
+            if(scrolledY > 850 && scrolledY < 1000){
+                $('#collapseTaxCompliance').slideDown();
+                $('#collapseBusinessRegistration').slideDown();
+            }
+            if(scrolledY > 1100 && scrolledY < 1200){
+                $('#collapseConsultancy').slideDown();
+                $('#collapseOthers').slideDown();
+            }
+
+
+            if(deviceWidth > 800){
+                if(deviceWidth > 1200 && deviceWidth < 1400){
+                    scrolledY = $(window).scrollTop()-126;
+                }
+                $('body').css('background-position', 'center ' + ((scrolledY)) + 'px');
+                $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
+                $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
+                $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
+                $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
+            }
+
+        });
+
     });
 })(jQuery);
 
 
 
 
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  var deviceWidth = $(window).width();
-  
-  if(deviceWidth > 800){
-      if(deviceWidth > 1200 && deviceWidth < 1400){
-          scrolledY = $(window).scrollTop()-126;
-      }
-    $('body').css('background-position', 'center ' + ((scrolledY)) + 'px');
-    $('.home-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-    $('.services-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-    $('.inquire-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-    $('.choose-parallax').css('background-position', 'center ' + ((scrolledY)) + 'px');
-  }
 
-});
 
