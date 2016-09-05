@@ -377,83 +377,88 @@
   			<div id="contact-panel" class="panel panel-default" >
 			    <form name="sentMessage" id="contactForm" novalidate>
   				    <div  class="panel-body" style="width:100%; text-align:center;">
-                        <div class="col-lg-2 col-lg-offset-1" style="padding-top:3%;">
-                            <div class="row">
-                                <div class="col-lg">
-                                    <a href="#locationModal"  data-toggle="modal">
-                                        <img style="max-width:120px;width:120px;"  src="img/Map/location.png" alt="">
-                                    </a>
+                        <div class="row">
+                            <div class="col-lg-2 col-lg-offset-1" style="padding-top:3%;">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <a href="#locationModal"  data-toggle="modal">
+                                            <img style="max-width:120px;width:120px;"  src="img/Map/location.png" alt="">
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <br>
-                            <div class="row" style="text-align:center;color:black;font-size:15px;">
-                                <div class="col-lg">
-                                    VIEW  LOCATION
-                                </div>
-                            </div>
-                        </div>
-  						<div class="col-lg-8 col-lg-offset-1">
-  						    <div class="row control-group">
-  								<div id="name-input" class="form-group col-xs-6 floating-label-form-group controls">
-  								    <label>Name</label>
-  								    <input type="text" pattern="^[a-zA-Z ]*$" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-    							</div>
-								<div id="mobile-input" class="form-group col-xs-6 floating-label-form-group controls">
-  									<label>Mobile Number</label>
-  								    <input type="tel" pattern="^(((0|(00|\+)[1-9]{2,3}))[0-9]{10})$"  class="form-control" placeholder="Mobile/Phone Number" id="phone" required data-validation-required-message="Please enter your phone/mobile number.">
-								</div>
-  								<div  style="margin-top:60px; margin-bottom:-20px;">
-  								    <p class="help-block text-danger"></p>
-  									<p class="help-block text-danger"></p>
-  								</div>
-							</div>
-							<div class="row control-group">						
-								<div class="form-group col-xs-12 floating-label-form-group controls">
-  									<label>Company Name</label>
-  									<input type="text" pattern="^[a-zA-Z ]*$" class="form-control" placeholder="Company Name" id="company_name" required data-validation-required-message="Please enter your Company.">
-  								</div>
-								<div style="margin-top:60px; margin-bottom:-20px;">
-  								    <p class="help-block text-danger"></p>
-									<p class="help-block text-danger"></p>
-  								</div>				
-  							</div>
-  							<div class="row control-group">
-								<div class="form-group col-xs-12 floating-label-form-group controls">
-									<label>Email Address</label>
-									<input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-								</div>
-								<div   style="margin-top:60px; margin-bottom:-20px;">
-									<p class="help-block text-danger"></p>
-								</div>
-  							</div>
-  							<div class="row control-group">
-  								<div class="form-group col-xs-12 floating-label-form-group controls">
-  									<label>Inquiry</label>
-  									<textarea rows="5" class="form-control"  placeholder="Inquiry/Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-  									<p class="help-block text-danger"></p>
-  								</div>
-							</div>
-							<div class="row control-group">
-								<div class="form-group col-xs-6">
-									<div style="color:black;padding-top:5px;">
-										<label>Best Time to Call</label>
-									</div>
-							    </div>
-								<div class="form-group col-xs-6 floating-label-form-group controls">
-									<input type="time" pattern="^(([0-2]|)[0-9](:[0-9]{2}|))(| )(|am|pm|AM|PM)$"  class="form-control input-sm" placeholder="HOUR : MINUTE AM/PM" id="calltime" required data-validation-required-message="Please enter a time.">
-								</div>
-								<div  style="margin-top:60px; margin-bottom:-20px;">
-  									<p class="help-block text-danger"></p>
-  								</div>
-							</div>
-  						</div>
-                        <div class="col-lg-8 col-lg-offset-1">
-                            <div class="col-lg-4 col-lg-offset-5">
                                 <br>
-                                <button  type="submit" class="btn btn-success"><div style="color:white"><i class="fa fa-paper-plane" aria-hidden="true"></i> SEND</div></button>
-                                <br><br>
+                                <div class="row" style="text-align:center;color:black;font-size:15px;">
+                                    <div class="col-lg">
+                                        VIEW  LOCATION
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-lg-offset-1">
+                                <div class="row control-group">
+                                    <div id="name-input" class="form-group col-xs-6 floating-label-form-group controls">
+                                        <label>Name</label>
+                                        <input type="text" pattern="^[a-zA-Z ]*$" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                    </div>
+                                    <div id="mobile-input" class="form-group col-xs-6 floating-label-form-group controls">
+                                        <label>Mobile Number</label>
+                                        <input type="tel" pattern="^(((0|(00|\+)[1-9]{2,3}))[0-9]{10})$"  class="form-control" placeholder="Mobile/Phone Number" id="phone" required data-validation-required-message="Please enter your phone/mobile number.">
+                                    </div>
+                                    <div  style="margin-top:60px; margin-bottom:-20px;">
+                                        <p class="help-block text-danger"></p>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">						
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Company Name</label>
+                                        <input type="text" pattern="^[a-zA-Z ]*$" class="form-control" placeholder="Company Name" id="company_name" required data-validation-required-message="Please enter your Company.">
+                                    </div>
+                                    <div style="margin-top:60px; margin-bottom:-20px;">
+                                        <p class="help-block text-danger"></p>
+                                        <p class="help-block text-danger"></p>
+                                    </div>				
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                    </div>
+                                    <div   style="margin-top:60px; margin-bottom:-20px;">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>Inquiry</label>
+                                        <textarea rows="5" class="form-control"  placeholder="Inquiry/Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-6">
+                                        <div style="color:black;padding-top:5px;">
+                                            <label>Best Time to Call</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-6 floating-label-form-group controls">
+                                        <input type="time" pattern="^(([0-2]|)[0-9](:[0-9]{2}|))(| )(|am|pm|AM|PM)$"  class="form-control input-sm" placeholder="HOUR : MINUTE AM/PM" id="calltime" required data-validation-required-message="Please enter a time.">
+                                    </div>
+                                    <div  style="margin-top:60px; margin-bottom:-20px;">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="success" class="col-lg-10 col-lg-offset-1">
+                            </div>
+                            <div class="col-lg-8 col-lg-offset-1">
+                                <div class="col-lg-4 col-lg-offset-5">
+                                    <br>
+                                    <button  type="submit" class="btn btn-success"><div style="color:white"><i class="fa fa-paper-plane" aria-hidden="true"></i> SEND</div></button>
+                                    <br><br>
+                                </div>
                             </div>
                         </div>
+
   					</div>
                 </form>
 			</div>
@@ -472,7 +477,14 @@
                     </div>
 					<div class="footer-col col-md-4">
                         <h4>Our Numbers</h4>
-                        <p>Tel No:(046) 427-1876 <br>Cell No:0906-203-9418<br>0905-882-9259 </p>
+                        <p>
+                            Mobile Numbers
+                            <br>Smart – 0929-8134634 , 0912-51888808
+                            <br>Globe – 0905-8829259, 0915-3873310
+                            <br>SUN – 0923-4388126, 0922-7316555
+                            <br><br>Telephone Number
+                            <br>046-416-4530
+                        </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h4>Like us on Facebook </h4>

@@ -532,6 +532,7 @@ section.success a.active {
     display: block;
     z-index: 0;
     position: relative;
+	padding-top: 2.5px;
     top: 2em;
     font-size: .85em;
     vertical-align: middle;
